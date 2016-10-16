@@ -1,5 +1,7 @@
+var chalk = require('chalk');
+
 function hello(text) {
   console.log('hello ' + text);
 }
 
-hello('world');
+hello(chalk.blue('world'));
